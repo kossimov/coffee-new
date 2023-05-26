@@ -1,0 +1,162 @@
+.works__title {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #83888f;
+}
+
+.works__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.works__item {
+  min-width: 327px;
+  margin-bottom: 56px;
+}
+
+.works__item:nth-child(3) {
+  margin-bottom: 79px;
+}
+
+.works__number {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+  color: #FDD6BA;
+}
+
+.works__subtitle {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #333D4B;
+}
+
+.works__text {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #333D4B;
+}
+
+.works__link {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  width: 217px;
+  padding: 15px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  text-decoration: none;
+  background-color: #0e8784;
+  border-radius: 6px;
+}
+
+@media only screen and (min-width:576px) {
+  .works__title {
+    text-align: start;
+  }
+  
+  .works__list {
+    position: relative;
+    display: flex;
+  }
+  
+  .works__item:nth-child(1):before {
+    position: absolute;
+    top: -50px;
+    display: block;
+    width: 405px;
+    height: 31px;
+    background-image: url("../../images/line-oval.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+  }
+  
+  .works__item {
+    min-width: 163px;
+    margin-right: 20px;
+  }
+  
+  .works__number {
+    text-align: start;
+  }
+  
+  .works__subtitle {
+    text-align: start;
+  }
+  
+  .works__text {
+    text-align: start;
+  }
+  
+  .works__link {
+    margin: 0;
+    margin-bottom: 120px;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .works__list {
+    padding-top: 70px;
+
+  }
+  .works__item {
+    margin-right: 95px;
+    max-width: 325px;
+  }
+
+  .works__item:nth-child(1):before {
+    position: absolute;
+    top: -50px;
+    display: block;
+    width: 921px;
+    height: 120px;
+    background-image: url("../images/line-oval.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+  }
+
+  .works__number {
+    margin-bottom: 38px;
+  }
+  .works__subtitle {
+    width: 255px;
+    margin-bottom: 42px;
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .works__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .works__link {
+    margin-bottom: 120px;
+  }
+}

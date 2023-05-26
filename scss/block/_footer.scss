@@ -1,0 +1,122 @@
+
+.sait-footer {
+  padding-top: 54px;
+  padding-bottom: 56px;
+  background-color: #2C343E;
+}
+.sait-footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+.sait-footer__wrapper {
+  
+}
+.sait-footer__list {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-left: 0;
+  list-style: none;
+}
+.sait-footer__sublist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.sait-footer__link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  text-decoration: none;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.sait-footer__link:hover {
+  color: #fefcf7;
+}
+.sait-footer__links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  text-decoration: none;
+  font-family: var(--main-font-family);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.sait-footer__links:hover {
+  color: #fefcf7;
+}
+.sait-footer__link:nth-child(3){ 
+  margin-bottom: 0;
+}
+.sait-footer__sublink {
+  display: inline-block;
+  margin-right: 24px;
+}
+.sait-footer__sublinks{ 
+  display: inline-block;
+  margin-right: 0;
+}
+
+@media only screen and (min-width:576px) {
+    
+  .sait-footer__list  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .sait-footer__link {
+      display: inline-block;
+      margin-right: 33px;
+      margin-bottom: 0;
+  }
+  .sait-footer__links {
+      display: inline-block;
+      margin-right: 0;
+      margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  .sait-footer {
+      padding-top: 47px;
+      padding-bottom: 49px;
+  }
+  .sait-footer__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .sait-footer__info {
+      display: flex;
+      align-items: center;
+  }
+  .sait-footer__logo  {
+      display: block;
+      margin-bottom: 0;
+      margin-right: 100px;
+  }
+  .sait-footer__list {
+      margin-bottom: 0;
+  }
+  .sait-footer__link {
+      display: block;
+  }
+  .sait-footer__links {
+      display: block;
+  }  
+}

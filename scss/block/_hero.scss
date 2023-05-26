@@ -1,0 +1,122 @@
+/* start hero  */
+.hero__wrapper {
+  padding: 100px 24px;
+  background-image: url("../images/coffeemobile.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.hero__title-wrapper {
+  min-width: 279px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.hero__text-wrapper {
+  min-width: 279px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 39px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  opacity: 0.8;
+}
+
+.hero__link {
+  margin: 0 auto;
+  display: block;
+  width: 217px;
+  padding: 15px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  text-decoration: none;
+  background-color: #0e8784;
+  border-radius: 6px;
+}
+
+@media only screen and (min-width:576px) {
+  
+  .hero__wrapper {
+    padding: 104px 0 104px 58px;
+    background-image: url("../images/coffeetablet.png");
+    background-size: 100%;
+  }
+  
+  .hero__title-wrapper {
+    max-width: 329px;
+  }
+  
+  .hero__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: start;
+  }
+  
+  .hero__text-wrapper {
+    max-width: 398px;
+  }
+  
+  .hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: start;
+  }
+  
+  .hero__link {
+    margin-left: 0;
+  }
+  /* finish hero  */
+}
+
+@media only screen and (min-width:1024px) {
+  .hero__wrapper {
+    padding: 117px 0 117px 86px;
+    background-image: url("../images/coffeedesktop.png");
+    background-size: 100%;
+  }
+  
+  .hero__title-wrapper {
+    max-width: 493px;
+  }
+  
+  .hero__title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+  }
+  
+  .hero__text-wrapper {
+    max-width: 445px;
+  }
+  
+  .hero__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* finish hero section  */
+}

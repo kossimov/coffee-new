@@ -1,0 +1,93 @@
+.heroo__wrapper {
+  margin-bottom: 48px;
+  padding: 111px 24px 87px 24px;
+  background-image: url("../images/about-hero.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.heroo__title-wrapper {
+  min-width: 279px;
+}
+
+.heroo__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.heroo__text-wrapper {
+  min-width: 279px;
+}
+
+.heroo__text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (min-width:576px) {
+  
+  .heroo__wrapper {
+    padding: 118px 0 118px 58px;
+    background-image: url("../../images/about-desktop.png");
+    background-size: 100%;
+  }
+
+  .heroo__title-wrapper {
+    width: 150px;
+  }
+
+  .heroo__title {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: start;
+  }
+
+  .heroo__text-wrapper {
+    width: 398px;
+  }
+
+  .heroo__text {
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  
+  .heroo__wrapper {
+    padding: 137px 0 137px 85px;
+    background-image: url("../../images/about-laptop.png");
+    background-size: 100%;
+  }
+
+  .heroo__title-wrapper {
+    width: 188px;
+  }
+
+  .heroo__title {
+    font-size: 40px;
+    line-height: 48px;
+    text-align: start;
+  }
+
+  .heroo__text-wrapper {
+    width: 445px;
+  }
+
+  .heroo__text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: start;
+  }
+}
