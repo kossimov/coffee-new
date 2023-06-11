@@ -1331,6 +1331,184 @@ img {
     line-height: 26px;
   }
 }
+/* international start */
+.countries {
+  padding-bottom: 168px;
+}
+
+.countries__title {
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #83888f;
+}
+
+.countries__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.countries__item {
+  padding-top: 117px;
+}
+
+.countries__subtitle {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.countries__subtitle::before {
+  position: absolute;
+  top: -115px;
+  left: 46%;
+  width: 40px;
+  height: 50px;
+  background-image: url("../images/kindon.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.countries__subtitle--show {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.countries__subtitle--show::before {
+  position: absolute;
+  top: -115px;
+  left: 46%;
+  width: 55px;
+  height: 50px;
+  background-image: url("../images/conada.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.countries__subtitle--plas {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.countries__subtitle--plas::before {
+  position: absolute;
+  top: -115px;
+  left: 46%;
+  width: 55px;
+  height: 50px;
+  background-image: url("../images/australia.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.countries__info {
+  position: relative;
+  margin: 0 auto;
+  max-width: 222px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.countries__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #83888f;
+}
+
+@media only screen and (min-width: 740px) {
+  .countries__title {
+    text-align: left;
+  }
+  .countries__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .countries__item {
+    min-width: 222px;
+  }
+  .countries__text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+  .countries__subtitle {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .countries__subtitle--plas {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .countries__subtitle--show {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .countries__subtitle::before {
+    left: 0;
+  }
+  .countries__subtitle--plas::before {
+    left: 0;
+  }
+  .countries__subtitle--show::before {
+    left: 0;
+  }
+  .countries__info {
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .countries__text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+  }
+  .countries__subtitle {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .countries__subtitle--plas {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: left;
+  }
+  .countries__subtitle--show {
+    font-size: 32px;
+    line-height: 36px;
+    text-align: left;
+  }
+}
 .sait-footer {
   padding-top: 54px;
   padding-bottom: 56px;
